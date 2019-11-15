@@ -1,3 +1,7 @@
+<h1>member</h1>
+<p><span> </span><span class="hljs-number"> 40523252  <a href="https://40523252.github.io/cad2019">王彥筑<br/></a></span><span><br/></span><span class="hljs-number">40723207  <a href="https://40723207.github.io/cad2019">吳文翔</a></span><span><br/></span><span> </span><span class="hljs-number"> <br/>40723210  <a href="https://40723210.github.io/cad2019">李承澤</a></span><span><br/> </span><span class="hljs-number"> </span></p>
+<p><span class="hljs-number">40723216 </span><span> <a href="https://40723216.github.io/cad2019">林子欽</a><br/> </span><span class="hljs-number"> <br/>40723226 <a href="https://40723226.github.io/cad2019"> </a></span><span><a href="https://40723226.github.io/cad2019">高立倫</a><br/> </span><span class="hljs-number"> <br/>40723232  <a href="https://40723232.github.io/cad2019">陳鈺凱</a></span><span><br/> </span><span class="hljs-number"> <br/>40723236  <a href="https://40723236.github.io/cad2019">黃宏裕</a></span><span><br/> </span><span class="hljs-number"> </span></p>
+<p><span class="hljs-number">40732319  <a href="https://40732319.github.io/cad2019">林鉦淯</a></span></p>
 <h1>About</h1>
 <p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
 <h4>利用 cmsimde 建立靜態網誌方法:</h4>
@@ -8,7 +12,7 @@
 <p>3.在近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.</p>
 <p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</p>
 <p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
-<p>git clone --recurse-submodules <a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p>
-<h1>Develop</h1>
+<p>git clone --recurse-submodules <a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p><h1>Develop</h1>
 <p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
+<p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
